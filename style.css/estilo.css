@@ -1,0 +1,104 @@
+body{
+    font-family:Arial, helvetica, sans-serif;
+    background-image:linear-gradient(45deg,#4eecf5,#fcf94e);
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+    color: #FFFFFF;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+button{
+   background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+   width: 100%;
+   border: none;
+   padding: 15px;
+   color: white;
+   font-size: 15px;
+   cursor: pointer;
+}
+label{
+    color: #FFFFFF;
+}
+
+.usuario{
+    text-align: center;
+    color: rgb(11, 4, 53);
+}
+
+.erro{
+    color: red;
+    text-align: center;
+}
+
+.sub{
+    text-decoration: none;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    background-color: rgb(112, 199, 192);
+    z-index: 99;
+    color: black;
+}
+table, th, td {
+    border: 1px solid black;
+    }
+    
+table {
+    border: none;
+    border-collapse: collapse;
+    margin: auto;
+    }
+    
+th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    }
+    
+th{
+    font-weight: bold;
+    }
+    
+    
+tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+    }
+    
